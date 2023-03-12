@@ -1,0 +1,6 @@
+<genericfuse MagicId="0x45535546" version="1.0.0">
+<fuse name="JtagDisable" size="4" value="0x1" />
+<fuse name="PublicKeyHash" size="32" value="0x74d6d4686330cb1beaa037c700bcaf38ad7c3c14511f0d03d63447db73942c16" />
+<fuse name="BootSecurityInfo" size="4" value="0x2" />
+<fuse name="SecurityMode" size="4" value="0x1" />
+</genericfuse>

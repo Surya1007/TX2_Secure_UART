@@ -1,0 +1,12 @@
+#ifndef __t186ref_build_t186_user_tasks_nvidia_sample_hwkey_agent_app_nvidia_sample_hwkey_agent_module_config_h_H
+#define __t186ref_build_t186_user_tasks_nvidia_sample_hwkey_agent_app_nvidia_sample_hwkey_agent_module_config_h_H
+#define MODULE_COMPILEFLAGS ""
+#define MODULE_CFLAGS "__DMIN_STACK_SIZE 8192__DMIN_HEAP_SIZE 16384__DTEGRA_SE_BASE 0X03AC0000__DTEGRA_SE_SIZE 0X2000__DTEGRA_FUSE_BASE 0X3820000__DTEGRA_FUSE_SIZE 0X10000"
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_INCLUDES "_APP_NVIDIA_SAMPLE_HWKEY_AGENT_INCLUDE_APP_NVIDIA_SAMPLE_HWKEY_AGENT_PLATFORM_FUSE_INCLUDE_APP_NVIDIA_SAMPLE_HWKEY_AGENT_PLATFORM_TEGRA_SE_INCLUDE"
+#define MODULE_SRCDEPS ""
+#define MODULE_DEPS "_APP_TRUSTY_LIB_LIBC_TRUSTY_LIB_OPENSSL"
+#endif
