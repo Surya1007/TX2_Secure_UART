@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/ipc/tegrabl_bpmp_fw_interface.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/ipc/tegrabl_bpmp_fw_interface.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/ipc/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/ipc/tegrabl_bpmp_fw_interface.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/ipc/tegrabl_bpmp_fw_interface.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/ipc/module_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_bpmp_fw_interface.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
@@ -14,7 +14,7 @@
  lib/exit/../../../../common/include/lib/tegra-ivc.h \
  ../../common/include/drivers/tegrabl_timer.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  platform/t186/../../../../common/include/soc/t186/tegrabl_addressmap.h \
  platform/t186/../../../../../../hwinc-t18x/address_map_new.h \
  lib/exit/../../../../common/include/lib/string.h \
@@ -27,9 +27,9 @@
  platform/t186/../../../common/include/soc/t186/tegrabl_binary_types.h \
  ../../common/include/tegrabl_io.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/ipc/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/ipc/module_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_bpmp_fw_interface.h:
 
@@ -57,7 +57,7 @@ lib/exit/../../../../common/include/lib/tegra-ivc.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 platform/t186/../../../../common/include/soc/t186/tegrabl_addressmap.h:
 
@@ -81,4 +81,4 @@ platform/t186/../../../common/include/soc/t186/tegrabl_binary_types.h:
 
 ../../common/include/tegrabl_io.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/ipc/tegrabl_bpmp_fw_interface.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/ipc/tegrabl_bpmp_fw_interface.c:

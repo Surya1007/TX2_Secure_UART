@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/class/transport/tegrabl_transport_usbf.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/usbf/class/transport/tegrabl_transport_usbf.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/class/transport/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/class/transport/tegrabl_transport_usbf.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/usbf/class/transport/tegrabl_transport_usbf.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/class/transport/module_config.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/string.h \
  lib/exit/../../../../common/include/lib/stdint.h \
@@ -14,7 +14,7 @@
  ../../common/include/tegrabl_compiler.h \
  ../../common/include/drivers/tegrabl_timer.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  platform/t186/../../../../common/include/soc/t186/tegrabl_addressmap.h \
  platform/t186/../../../../../../hwinc-t18x/address_map_new.h \
  lib/exit/../../../../common/include/lib/tegrabl_malloc.h \
@@ -34,9 +34,9 @@
  lib/exit/../../../../common/include/lib/libfdt_env.h \
  lib/exit/../../../../common/include/lib/fdt.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/class/transport/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/class/transport/module_config.h:
 
 lib/exit/../../../../common/include/lib/stdbool.h:
 
@@ -64,7 +64,7 @@ lib/exit/../../../../common/include/lib/tegrabl_ar_macro.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 platform/t186/../../../../common/include/soc/t186/tegrabl_addressmap.h:
 
@@ -102,4 +102,4 @@ lib/exit/../../../../common/include/lib/libfdt_env.h:
 
 lib/exit/../../../../common/include/lib/fdt.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/usbf/class/transport/tegrabl_transport_usbf.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/usbf/class/transport/tegrabl_transport_usbf.c:

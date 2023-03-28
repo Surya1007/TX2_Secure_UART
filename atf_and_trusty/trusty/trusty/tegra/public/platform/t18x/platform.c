@@ -39,6 +39,7 @@
 #include <lk/init.h>
 #include <platform/gic.h>
 #include <lib/cpus/denver.h>
+#include <platform/secure_port.h>
 
 #if WITH_KERNEL_VM
 #include <kernel/vm.h>
@@ -205,11 +206,12 @@ void platform_init(void)
 
 	/* setup debug port passed in boot args */
 	platform_init_debug_port(debug_uart_id);
-	// CHANGED: From here
+	// DEBUG_TX2: CHANGED: From here
 	dprintf(SPEW, "Initializing platform at trusty level\nTrying to initialize another UART......\n");
 	//platform_init_debug_port(uart_c);
+	
 	dprintf(0, "Check if it is working or not\n");
-	// CHANGED: Till Here
+	// DEBUG_TX2: CHANGED: Till Here
 }
 
 /* initial memory mappings. parsed by start.S */
@@ -253,15 +255,6 @@ struct mmu_initial_mapping mmu_initial_mappings[] = {
 	  .flags = MMU_INITIAL_MAPPING_FLAG_DEVICE,
 	  .name = "bank-4" },
 	  
-	// CHANGED: From here
-	/*
-	{ .phys = TEGRA_UARTC_PBASE,
-	  .virt = TEGRA_UARTC_BASE,
-	  .size = REGISTER_BANK_SIZE,
-	  .flags = MMU_INITIAL_MAPPING_FLAG_DEVICE,
-	  .name = "uart-c" },
-	  */
-	// CHANGED: Till Here
 	
 	/* null entry to terminate the list */
 	{ 0 }
@@ -306,7 +299,10 @@ void platform_init_mmu_mappings(void)
 
 static void platform_secondary_init(uint level)
 {
+	// DEBUG_TX2: Modified here to identify changes in bootlogs
+	platform_init_secure_port(uart_c);
 	dprintf(SPEW, "%s: Suryacpu_id 0x%x\n", __func__, plat_arch_curr_cpu_num());
+	
 }
 
 LK_INIT_HOOK_FLAGS(tegra_secondary, platform_secondary_init, LK_INIT_LEVEL_PLATFORM, LK_INIT_FLAG_SECONDARY_CPUS);

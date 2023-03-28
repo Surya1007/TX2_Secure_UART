@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/external/mbedtls/bignum.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/external/mbedtls/bignum.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/external/mbedtls/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/external/mbedtls/bignum.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/external/mbedtls/bignum.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/external/mbedtls/module_config.h \
  ../../common/include/lib/mbedtls/config.h \
  ../../common/include/lib/mbedtls/bignum.h \
  ../../common/include/lib/mbedtls/config.h \
@@ -18,9 +18,9 @@
  include/malloc.h include/endian.h include/rand.h \
  arch/arm64/include/arch/defines.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/external/mbedtls/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/external/mbedtls/module_config.h:
 
 ../../common/include/lib/mbedtls/config.h:
 
@@ -68,4 +68,4 @@ include/rand.h:
 
 arch/arm64/include/arch/defines.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/external/mbedtls/bignum.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/external/mbedtls/bignum.c:

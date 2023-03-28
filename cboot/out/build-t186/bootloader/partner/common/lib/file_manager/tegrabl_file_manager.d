@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/file_manager/tegrabl_file_manager.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/file_manager/tegrabl_file_manager.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/file_manager/module_config.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/file_manager/tegrabl_file_manager.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/file_manager/tegrabl_file_manager.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/file_manager/module_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/string.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/stdint.h \
@@ -23,11 +23,11 @@
  lib/exit/../../../../common/include/lib/fs.h include/sys/types.h \
  include/compiler.h lib/exit/../../../../common/include/lib/tegrabl_cbo.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/file_manager/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/file_manager/module_config.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
@@ -73,4 +73,4 @@ include/compiler.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_cbo.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/file_manager/tegrabl_file_manager.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/file_manager/tegrabl_file_manager.c:

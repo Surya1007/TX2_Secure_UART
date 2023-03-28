@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/debug.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/cboot/kernel/debug.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/debug.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/kernel/debug.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/module_config.h \
  include/debug.h lib/exit/../../../../common/include/lib/stddef.h \
  include/compiler.h include/platform/debug.h include/sys/types.h \
  include/limits.h lib/exit/../../../../common/include/lib/stdint.h \
@@ -15,9 +15,9 @@
  include/kernel/timer.h include/kernel/debug.h include/err.h \
  include/platform.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/module_config.h:
 
 include/debug.h:
 
@@ -69,4 +69,4 @@ include/err.h:
 
 include/platform.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/cboot/kernel/debug.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/kernel/debug.c:

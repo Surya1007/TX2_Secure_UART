@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/platform_data/tegrabl_display_dtb_backlight.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/display/platform_data/tegrabl_display_dtb_backlight.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/platform_data/tegrabl_display_dtb_backlight.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/display/platform_data/tegrabl_display_dtb_backlight.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -10,7 +10,7 @@
  lib/exit/../../../../common/include/lib/stdbool.h \
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_malloc.h \
  platform/t186/../../../../common/drivers/display/backlight/lp8556.h \
  ../../common/include/drivers/tegrabl_pwm.h include/stdio.h \
@@ -26,9 +26,9 @@
  lib/exit/../../../../common/include/lib/fdt.h \
  lib/exit/../../../../common/include/lib/tegrabl_devicetree.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -48,7 +48,7 @@ lib/exit/../../../../common/include/lib/stdbool.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_malloc.h:
 
@@ -86,4 +86,4 @@ lib/exit/../../../../common/include/lib/fdt.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_devicetree.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/display/platform_data/tegrabl_display_dtb_backlight.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/display/platform_data/tegrabl_display_dtb_backlight.c:

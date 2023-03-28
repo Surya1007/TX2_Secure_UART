@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/external/libufdt/module_config.h \
- /home/smanupa/cboot/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/external/libufdt/module_config.h \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.h \
  lib/exit/../../../../common/include/lib/libfdt.h \
  lib/exit/../../../../common/include/lib/libfdt_env.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -13,16 +13,16 @@
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/string.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/external/libufdt/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/external/libufdt/module_config.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.h:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.h:
 
 lib/exit/../../../../common/include/lib/libfdt.h:
 
@@ -46,7 +46,7 @@ lib/exit/../../../../common/include/lib/string.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -54,4 +54,4 @@ lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
 ../../common/include/tegrabl_compiler.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/external/libufdt/ufdt_prop_dict.c:

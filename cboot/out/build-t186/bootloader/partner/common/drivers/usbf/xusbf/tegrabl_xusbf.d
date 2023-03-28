@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/xusbf/tegrabl_xusbf.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/usbf/xusbf/tegrabl_xusbf.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/xusbf/module_config.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/xusbf/tegrabl_xusbf.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/usbf/xusbf/tegrabl_xusbf.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/xusbf/module_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/string.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/stdint.h \
@@ -43,11 +43,11 @@
  lib/exit/../../../../common/include/lib/tegrabl_devicetree.h \
  ../../common/include/drivers/tegrabl_regulator.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/xusbf/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/usbf/xusbf/module_config.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
@@ -131,4 +131,4 @@ lib/exit/../../../../common/include/lib/tegrabl_devicetree.h:
 
 ../../common/include/drivers/tegrabl_regulator.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/usbf/xusbf/tegrabl_xusbf.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/usbf/xusbf/tegrabl_xusbf.c:

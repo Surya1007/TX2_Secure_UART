@@ -24,7 +24,6 @@ typedef uint32_t tegrabl_console_interface_t;
 #define TEGRABL_CONSOLE_UART 0
 #define TEGRABL_CONSOLE_COMB_UART 1
 #define TEGRABL_CONSOLE_SEMIHOST 2
-
 /**
 * @brief Console structure
 */

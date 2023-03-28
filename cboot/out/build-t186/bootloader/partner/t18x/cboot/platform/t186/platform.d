@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/t186/platform.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/cboot/platform/t186/platform.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/t186/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/t186/platform.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/platform/t186/platform.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/t186/module_config.h \
  include/debug.h lib/exit/../../../../common/include/lib/stddef.h \
  include/compiler.h include/platform/debug.h include/sys/types.h \
  include/limits.h lib/exit/../../../../common/include/lib/stdint.h \
@@ -18,7 +18,7 @@
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_console.h \
  ../../common/include/drivers/tegrabl_timer.h \
  lib/exit/../../../../common/include/lib/tegrabl_blockdev.h \
@@ -107,9 +107,9 @@
  ../../common/include/tegrabl_io.h \
  ../../common/include/drivers/tegrabl_sd_bdev.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/t186/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/t186/module_config.h:
 
 include/debug.h:
 
@@ -159,7 +159,7 @@ lib/exit/../../../../common/include/lib/tegrabl_exit.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_console.h:
 
@@ -339,4 +339,4 @@ lib/exit/../../../../common/include/lib/tegrabl_storage.h:
 
 ../../common/include/drivers/tegrabl_sd_bdev.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/cboot/platform/t186/platform.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/platform/t186/platform.c:

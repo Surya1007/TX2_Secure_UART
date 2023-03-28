@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/rollback_prevention/tegrabl_prevent_rollback.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/common/lib/rollback_prevention/tegrabl_prevent_rollback.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/rollback_prevention/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/rollback_prevention/tegrabl_prevent_rollback.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/lib/rollback_prevention/tegrabl_prevent_rollback.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/rollback_prevention/module_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -10,7 +10,7 @@
  lib/exit/../../../../common/include/lib/stdbool.h \
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  platform/t186/../../../common/include/soc/t186/tegrabl_binary_types.h \
  platform/t186/../../../../common/include/soc/t186/tegrabl_rollback_prevention.h \
  platform/t186/../../../common/lib/mb1bct/../../include/lib/tegrabl_prevent_rollback.h \
@@ -26,9 +26,9 @@
  lib/exit/../../../../common/include/lib/string.h \
  ../../common/include/tegrabl_io.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/rollback_prevention/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/rollback_prevention/module_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -48,7 +48,7 @@ lib/exit/../../../../common/include/lib/stdbool.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 platform/t186/../../../common/include/soc/t186/tegrabl_binary_types.h:
 
@@ -78,4 +78,4 @@ lib/exit/../../../../common/include/lib/string.h:
 
 ../../common/include/tegrabl_io.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/common/lib/rollback_prevention/tegrabl_prevent_rollback.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/lib/rollback_prevention/tegrabl_prevent_rollback.c:

@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/eeprom_manager/tegrabl_eeprom_manager.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/eeprom_manager/tegrabl_eeprom_manager.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/eeprom_manager/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/eeprom_manager/tegrabl_eeprom_manager.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/eeprom_manager/tegrabl_eeprom_manager.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/eeprom_manager/module_config.h \
  lib/exit/../../../../common/include/lib/libfdt.h \
  lib/exit/../../../../common/include/lib/libfdt_env.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -20,15 +20,15 @@
  platform/t186/../../../common/include/soc/t186/tegrabl_eeprom_layout.h \
  lib/exit/../../../../common/include/lib/tegrabl_devicetree.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/drivers/tegrabl_i2c_dev.h \
  lib/exit/../../../../common/include/lib/tegrabl_malloc.h \
  ../../common/include/drivers/tegrabl_gpio.h \
  lib/exit/../../../../common/include/lib/string.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/eeprom_manager/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/eeprom_manager/module_config.h:
 
 lib/exit/../../../../common/include/lib/libfdt.h:
 
@@ -68,7 +68,7 @@ lib/exit/../../../../common/include/lib/tegrabl_devicetree.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/drivers/tegrabl_i2c_dev.h:
 
@@ -78,4 +78,4 @@ lib/exit/../../../../common/include/lib/tegrabl_malloc.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/eeprom_manager/tegrabl_eeprom_manager.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/eeprom_manager/tegrabl_eeprom_manager.c:

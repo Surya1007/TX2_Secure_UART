@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/external/mincrypt/sha.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/external/mincrypt/sha.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/external/mincrypt/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/external/mincrypt/sha.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/external/mincrypt/sha.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/external/mincrypt/module_config.h \
  ../../common/include/lib/mincrypt/sha.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
@@ -13,9 +13,9 @@
  lib/exit/../../../../common/include/lib/inttypes.h \
  lib/exit/../../../../common/include/lib/string.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/external/mincrypt/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/external/mincrypt/module_config.h:
 
 ../../common/include/lib/mincrypt/sha.h:
 
@@ -47,4 +47,4 @@ lib/exit/../../../../common/include/lib/inttypes.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/external/mincrypt/sha.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/external/mincrypt/sha.c:

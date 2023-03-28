@@ -249,10 +249,15 @@ status_t platform_early_init(void)
 
 #if defined(CONFIG_ENABLE_UART)
 	/* initialize debug console */
+	
+	// DEBUG_TX2: Registering UART-C
+	error = tegrabl_console_register(TEGRABL_CONSOLE_UART,
+				2, NULL);
+	// END DEBUG_TX2
 	error = tegrabl_console_register(TEGRABL_CONSOLE_UART,
 				boot_params->uart_instance, NULL);
-	//error = tegrabl_console_register(TEGRABL_CONSOLE_UART,
-	//			boot_params->uart_instance, NULL);
+
+	
 	tegrabl_profiler_record("Console register", 0, DETAILED);
 	if ((error != TEGRABL_NO_ERROR) &&
 		(TEGRABL_ERROR_REASON(error) != TEGRABL_ERR_NOT_SUPPORTED))

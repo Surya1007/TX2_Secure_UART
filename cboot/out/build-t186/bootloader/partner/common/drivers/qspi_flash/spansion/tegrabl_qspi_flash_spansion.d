@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/qspi_flash/spansion/tegrabl_qspi_flash_spansion.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/qspi_flash/spansion/tegrabl_qspi_flash_spansion.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/qspi_flash/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/qspi_flash/spansion/tegrabl_qspi_flash_spansion.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/qspi_flash/spansion/tegrabl_qspi_flash_spansion.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/qspi_flash/module_config.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
  lib/exit/../../../../common/include/lib/string.h \
@@ -11,7 +11,7 @@
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/drivers/tegrabl_qspi.h \
  ../../common/include/drivers/tegrabl_gpcdma.h \
  ../../common/include/drivers/tegrabl_clock.h \
@@ -24,9 +24,9 @@
  platform/t186/../../../../common/drivers/qspi_flash/tegrabl_qspi_flash_private.h \
  platform/t186/../../../../common/drivers/qspi_flash/spansion/tegrabl_qspi_flash_spansion.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/qspi_flash/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/qspi_flash/module_config.h:
 
 lib/exit/../../../../common/include/lib/stdint.h:
 
@@ -48,7 +48,7 @@ lib/exit/../../../../common/include/lib/stddef.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/drivers/tegrabl_qspi.h:
 
@@ -72,4 +72,4 @@ platform/t186/../../../../common/drivers/qspi_flash/tegrabl_qspi_flash_private.h
 
 platform/t186/../../../../common/drivers/qspi_flash/spansion/tegrabl_qspi_flash_spansion.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/qspi_flash/spansion/tegrabl_qspi_flash_spansion.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/qspi_flash/spansion/tegrabl_qspi_flash_spansion.c:

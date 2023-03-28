@@ -37,8 +37,8 @@ __BEGIN_CDECLS
 /* debug levels */
 #define CRITICAL 0
 #define ALWAYS 0
-#define INFO 0 // CHANGED: original-> 1
-#define SPEW 0 // CHANGED: original-> 2
+#define INFO 1 // DEBUG_TX2: original -> 1; modified -> 0
+#define SPEW 2 // DEBUG_TX2: original-> 2; modified -> 0
 
 #if !DISABLE_DEBUG_OUTPUT
 

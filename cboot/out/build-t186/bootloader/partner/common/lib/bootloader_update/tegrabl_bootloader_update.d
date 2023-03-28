@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/bootloader_update/tegrabl_bootloader_update.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/bootloader_update/tegrabl_bootloader_update.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/bootloader_update/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/bootloader_update/tegrabl_bootloader_update.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/bootloader_update/tegrabl_bootloader_update.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/bootloader_update/module_config.h \
  lib/exit/../../../../common/include/lib/string.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/stdint.h \
@@ -11,7 +11,7 @@
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_malloc.h \
  lib/exit/../../../../common/include/lib/tegrabl_exit.h \
  lib/exit/../../../../common/include/lib/tegrabl_nvblob.h \
@@ -28,9 +28,9 @@
  lib/exit/../../../../common/include/lib/nct/nct.h \
  platform/t186/../../../common/include/drivers/tegrabl_fuse.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/bootloader_update/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/bootloader_update/module_config.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
@@ -52,7 +52,7 @@ lib/exit/../../../../common/include/lib/stddef.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_malloc.h:
 
@@ -84,4 +84,4 @@ lib/exit/../../../../common/include/lib/nct/nct.h:
 
 platform/t186/../../../common/include/drivers/tegrabl_fuse.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/bootloader_update/tegrabl_bootloader_update.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/bootloader_update/tegrabl_bootloader_update.c:

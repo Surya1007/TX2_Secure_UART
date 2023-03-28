@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/fixed_boot.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/linuxboot/fixed_boot.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/module_config.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/fixed_boot.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/linuxboot/fixed_boot.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/module_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -41,11 +41,11 @@
  app/kernel_boot/../../../../common/lib/linuxboot/fixed_boot.h \
  lib/exit/../../../../common/include/lib/tegrabl_a_b_boot_control.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/module_config.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -125,4 +125,4 @@ app/kernel_boot/../../../../common/lib/linuxboot/fixed_boot.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_a_b_boot_control.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/linuxboot/fixed_boot.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/linuxboot/fixed_boot.c:

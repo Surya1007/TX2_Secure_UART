@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/fs/fs.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/fs/fs.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/fs/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/fs/fs.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/fs/fs.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/fs/module_config.h \
  include/trace.h include/stdio.h include/compiler.h include/debug.h \
  lib/exit/../../../../common/include/lib/stddef.h \
  include/platform/debug.h include/sys/types.h include/limits.h \
@@ -10,7 +10,7 @@
  lib/exit/../../../../common/include/lib/stdbool.h include/printf.h \
  lib/exit/../../../../common/include/lib/inttypes.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h \
@@ -28,9 +28,9 @@
  app/kernel_boot/../../../../common/lib/linuxboot/../file_manager/../fs/ext4/ext4_priv.h \
  include/lk/init.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/fs/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/fs/module_config.h:
 
 include/trace.h:
 
@@ -60,7 +60,7 @@ lib/exit/../../../../common/include/lib/inttypes.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -102,4 +102,4 @@ app/kernel_boot/../../../../common/lib/linuxboot/../file_manager/../fs/ext4/ext4
 
 include/lk/init.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/fs/fs.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/fs/fs.c:

@@ -44,8 +44,8 @@ MODULE_SRCS += \
 	$(COMMON_DIR)/common_platform.c \
 	$(COMMON_DIR)/ioctl.c		\
 	$(COMMON_DIR)/syscall.c		\
-	$(COMMON_DIR)/hyp_stubs.c
-
+	$(COMMON_DIR)/hyp_stubs.c	\
+	$(COMMON_DIR)/secure_port.c
 ifeq ($(INSERT_SPECULATION_EXEC_BARRIER),1)
 	MODULE_CFLAGS += -DINSERT_SPECULATION_BARRIER
 endif

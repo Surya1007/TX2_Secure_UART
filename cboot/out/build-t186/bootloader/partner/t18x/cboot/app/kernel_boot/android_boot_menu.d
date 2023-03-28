@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/android_boot_menu.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/android_boot_menu.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/android_boot_menu.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/android_boot_menu.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/module_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -10,7 +10,7 @@
  lib/exit/../../../../common/include/lib/stdbool.h \
  ../../common/include/tegrabl_compiler.h \
  platform/t186/../../../common/include/soc/t186/tegrabl_soc_misc.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_blockdev.h \
  lib/exit/../../../../common/include/lib/list.h \
  ../../common/include/drivers/tegrabl_timer.h \
@@ -42,9 +42,9 @@
  lib/exit/../../../../common/include/lib/tegrabl_bootimg.h \
  app/kernel_boot/boot.h app/kernel_boot/fastboot.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/module_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -64,7 +64,7 @@ lib/exit/../../../../common/include/lib/stdbool.h:
 
 platform/t186/../../../common/include/soc/t186/tegrabl_soc_misc.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_blockdev.h:
 
@@ -130,4 +130,4 @@ app/kernel_boot/boot.h:
 
 app/kernel_boot/fastboot.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/android_boot_menu.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/android_boot_menu.c:

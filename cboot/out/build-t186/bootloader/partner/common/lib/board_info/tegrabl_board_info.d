@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/board_info/tegrabl_board_info.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/board_info/tegrabl_board_info.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/board_info/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/board_info/tegrabl_board_info.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/board_info/tegrabl_board_info.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/board_info/module_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_devicetree.h \
  lib/exit/../../../../common/include/lib/libfdt.h \
  lib/exit/../../../../common/include/lib/libfdt_env.h \
@@ -21,17 +21,17 @@
  lib/exit/../../../../common/include/lib/tegrabl_eeprom_manager.h \
  ../../common/include/drivers/tegrabl_eeprom.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/string.h \
  platform/t186/../../../common/include/soc/t186/tegrabl_soc_misc.h \
  lib/exit/../../../../common/include/lib/tegrabl_blockdev.h \
  platform/t186/../../../common/include/soc/t186/tegrabl_binary_types.h \
- /home/smanupa/cboot/bootloader/partner/common/lib/board_info/board_info_local.h \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/board_info/board_info_local.h \
  include/ctype.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/board_info/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/board_info/module_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_devicetree.h:
 
@@ -73,7 +73,7 @@ lib/exit/../../../../common/include/lib/tegrabl_eeprom_manager.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
@@ -83,8 +83,8 @@ lib/exit/../../../../common/include/lib/tegrabl_blockdev.h:
 
 platform/t186/../../../common/include/soc/t186/tegrabl_binary_types.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/board_info/board_info_local.h:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/board_info/board_info_local.h:
 
 include/ctype.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/board_info/tegrabl_board_info.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/board_info/tegrabl_board_info.c:

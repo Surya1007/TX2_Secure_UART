@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/lib/menu/menu.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/cboot/lib/menu/menu.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/lib/menu/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/lib/menu/menu.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/lib/menu/menu.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/lib/menu/module_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -10,7 +10,7 @@
  lib/exit/../../../../common/include/lib/stdbool.h \
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_utils.h \
  ../../common/include/drivers/tegrabl_keyboard.h \
  ../../common/include/drivers/tegrabl_timer.h include/lib/menu.h \
@@ -49,9 +49,9 @@
  arch/arm64/include/arch/arch_thread.h include/kernel/wait.h \
  include/debug.h include/platform/debug.h include/kernel/mutex.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/lib/menu/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/lib/menu/module_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -71,7 +71,7 @@ lib/exit/../../../../common/include/lib/stdbool.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_utils.h:
 
@@ -167,4 +167,4 @@ include/platform/debug.h:
 
 include/kernel/mutex.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/cboot/lib/menu/menu.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/lib/menu/menu.c:

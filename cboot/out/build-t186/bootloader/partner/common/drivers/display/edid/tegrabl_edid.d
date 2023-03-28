@@ -1,9 +1,9 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/edid/tegrabl_edid.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/display/edid/tegrabl_edid.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/edid/tegrabl_edid.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/display/edid/tegrabl_edid.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
@@ -33,13 +33,13 @@
  lib/exit/../../../../common/include/lib/string.h \
  ../../common/include/drivers/tegrabl_dpaux.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/stdbool.h:
 
@@ -99,4 +99,4 @@ lib/exit/../../../../common/include/lib/string.h:
 
 ../../common/include/drivers/tegrabl_dpaux.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/display/edid/tegrabl_edid.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/display/edid/tegrabl_edid.c:

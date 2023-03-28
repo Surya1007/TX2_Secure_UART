@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/keyboard/tegrabl_gpio_keyboard.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/keyboard/tegrabl_gpio_keyboard.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/keyboard/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/keyboard/tegrabl_gpio_keyboard.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/keyboard/tegrabl_gpio_keyboard.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/keyboard/module_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_ar_macro.h \
  lib/exit/../../../../common/include/lib/tegrabl_utils.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -17,7 +17,7 @@
  platform/t186/../../../../common/drivers/keyboard/tegrabl_gpio_keyboard.h \
  ../../common/include/drivers/tegrabl_keyboard.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/drivers/tegrabl_timer.h \
  lib/exit/../../../../common/include/lib/libfdt.h \
  lib/exit/../../../../common/include/lib/libfdt_env.h \
@@ -28,9 +28,9 @@
  lib/exit/../../../../common/include/lib/tegrabl_devicetree.h \
  platform/t186/../../../common/include/soc/t186/tegrabl_keyboard_config.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/keyboard/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/keyboard/module_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_ar_macro.h:
 
@@ -64,7 +64,7 @@ platform/t186/../../../../common/drivers/keyboard/tegrabl_gpio_keyboard.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/drivers/tegrabl_timer.h:
 
@@ -84,4 +84,4 @@ lib/exit/../../../../common/include/lib/tegrabl_devicetree.h:
 
 platform/t186/../../../common/include/soc/t186/tegrabl_keyboard_config.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/keyboard/tegrabl_gpio_keyboard.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/keyboard/tegrabl_gpio_keyboard.c:

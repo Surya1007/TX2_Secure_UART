@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/soc/t186/clocks/tegrabl_clk_bpmp.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/common/drivers/soc/t186/clocks/tegrabl_clk_bpmp.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/soc/t186/clocks/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/soc/t186/clocks/tegrabl_clk_bpmp.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/drivers/soc/t186/clocks/tegrabl_clk_bpmp.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/soc/t186/clocks/module_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -12,7 +12,7 @@
  ../../common/include/drivers/tegrabl_module.h \
  lib/exit/../../../../common/include/lib/inttypes.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/drivers/tegrabl_timer.h \
  ../../common/include/drivers/tegrabl_clock.h \
  lib/exit/../../../../common/include/lib/tegrabl_ar_macro.h \
@@ -35,9 +35,9 @@
  platform/t186/../../../common/drivers/soc/t186/clocks/../../../../lib/bpmp-abi/mach-t186/clk-t186.h \
  platform/t186/../../../common/drivers/soc/t186/clocks/../../../../lib/bpmp-abi/mach-t186/reset-t186.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/soc/t186/clocks/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/soc/t186/clocks/module_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -61,7 +61,7 @@ lib/exit/../../../../common/include/lib/inttypes.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/drivers/tegrabl_timer.h:
 
@@ -105,4 +105,4 @@ platform/t186/../../../common/drivers/soc/t186/clocks/../../../../lib/bpmp-abi/m
 
 platform/t186/../../../common/drivers/soc/t186/clocks/../../../../lib/bpmp-abi/mach-t186/reset-t186.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/common/drivers/soc/t186/clocks/tegrabl_clk_bpmp.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/drivers/soc/t186/clocks/tegrabl_clk_bpmp.c:

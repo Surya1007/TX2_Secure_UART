@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_auth_binary.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_auth_binary.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/module_config.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_auth_binary.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_auth_binary.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/module_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
@@ -32,11 +32,11 @@
  platform/t186/../../../../../../bootloader/partner/t18x/mb1-headers/tegrabl_carveout_id.h \
  platform/t186/../../../common/include/soc/t186/tegrabl_soc_misc.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/module_config.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/stdint.h:
 
@@ -96,4 +96,4 @@ platform/t186/../../../../../../bootloader/partner/t18x/mb1-headers/tegrabl_carv
 
 platform/t186/../../../common/include/soc/t186/tegrabl_soc_misc.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_auth_binary.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_auth_binary.c:

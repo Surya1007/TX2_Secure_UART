@@ -1,16 +1,17 @@
 t186ref/build-t186/tegra/public/platform/t18x/platform.o: \
- tegra/public/platform/t18x/platform.c /usr/include/stdc-predef.h \
+ tegra/public/platform/t18x/platform.c \
+ /home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdc-predef.h \
  t186ref/build-t186/config.h \
  t186ref/build-t186/tegra/public/platform/t18x/module_config.h \
  lk/common/include/assert.h lk/common/include/compiler.h \
  lk/common/include/debug.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include/stdarg.h \
  lk/common/include/stddef.h lk/common/include/platform/debug.h \
  lk/common/include/sys/types.h lk/common/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+ /home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed/limits.h \
+ /home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed/syslimits.h \
  lk/common/include/stdint.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
+ /home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include/stdbool.h \
  lk/common/include/list.h lk/common/include/err.h \
  lk/common/include/trace.h lk/common/include/stdio.h \
  lk/common/include/printf.h lk/common/include/rand.h \
@@ -30,12 +31,13 @@ t186ref/build-t186/tegra/public/platform/t18x/platform.o: \
  lk/common/include/lk/init.h \
  tegra/public/platform/tegra_common/include/platform/gic.h \
  tegra/public/platform/tegra_common/include/lib/cpus/denver.h \
+ tegra/public/platform/tegra_common/include/platform/secure_port.h \
  lk/common/include/kernel/vm.h lk/common/include/stdlib.h \
  lk/common/include/malloc.h lk/common/include/endian.h \
  lk/common/arch/arm64/include/arch/defines.h lk/common/include/arch.h \
  lk/common/include/arch/mmu.h
 
-/usr/include/stdc-predef.h:
+/home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdc-predef.h:
 
 t186ref/build-t186/config.h:
 
@@ -47,7 +49,7 @@ lk/common/include/compiler.h:
 
 lk/common/include/debug.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
+/home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include/stdarg.h:
 
 lk/common/include/stddef.h:
 
@@ -57,13 +59,13 @@ lk/common/include/sys/types.h:
 
 lk/common/include/limits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
+/home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed/limits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
+/home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed/syslimits.h:
 
 lk/common/include/stdint.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
+/home/smanupa/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include/stdbool.h:
 
 lk/common/include/list.h:
 
@@ -114,6 +116,8 @@ lk/common/include/lk/init.h:
 tegra/public/platform/tegra_common/include/platform/gic.h:
 
 tegra/public/platform/tegra_common/include/lib/cpus/denver.h:
+
+tegra/public/platform/tegra_common/include/platform/secure_port.h:
 
 lk/common/include/kernel/vm.h:
 

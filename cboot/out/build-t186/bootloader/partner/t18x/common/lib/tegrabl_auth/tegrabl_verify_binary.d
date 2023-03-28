@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_verify_binary.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_verify_binary.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/module_config.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_verify_binary.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_verify_binary.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/module_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
@@ -51,11 +51,11 @@
  platform/t186/../../../../../../hwinc-t18x/nvboot_se_rsa.h \
  platform/t186/../../../../../../hwinc-t18x/nvboot_se_defs.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_auth/module_config.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/stdint.h:
 
@@ -153,4 +153,4 @@ platform/t186/../../../../../../hwinc-t18x/nvboot_se_rsa.h:
 
 platform/t186/../../../../../../hwinc-t18x/nvboot_se_defs.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_verify_binary.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/lib/tegrabl_auth/tegrabl_verify_binary.c:

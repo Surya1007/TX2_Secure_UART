@@ -1,9 +1,9 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/sdmmc/tegrabl_sdmmc_protocol_rpmb.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/sdmmc/tegrabl_sdmmc_protocol_rpmb.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/sdmmc/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/sdmmc/tegrabl_sdmmc_protocol_rpmb.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/sdmmc/tegrabl_sdmmc_protocol_rpmb.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/sdmmc/module_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
@@ -25,13 +25,13 @@
  lib/exit/../../../../common/include/lib/inttypes.h \
  platform/t186/../../../../common/drivers/sdmmc/tegrabl_sdmmc_protocol_rpmb.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/sdmmc/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/sdmmc/module_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/stdbool.h:
 
@@ -75,4 +75,4 @@ lib/exit/../../../../common/include/lib/inttypes.h:
 
 platform/t186/../../../../common/drivers/sdmmc/tegrabl_sdmmc_protocol_rpmb.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/sdmmc/tegrabl_sdmmc_protocol_rpmb.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/sdmmc/tegrabl_sdmmc_protocol_rpmb.c:

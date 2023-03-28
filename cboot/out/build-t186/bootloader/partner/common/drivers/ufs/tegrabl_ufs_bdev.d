@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/ufs/tegrabl_ufs_bdev.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/ufs/tegrabl_ufs_bdev.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/ufs/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/ufs/tegrabl_ufs_bdev.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/ufs/tegrabl_ufs_bdev.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/ufs/module_config.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
  lib/exit/../../../../common/include/lib/string.h \
@@ -12,7 +12,7 @@
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/tegrabl_blockdev.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/list.h \
  ../../common/include/drivers/tegrabl_timer.h \
  platform/t186/../../../../common/drivers/ufs/tegrabl_ufs_int.h \
@@ -23,12 +23,12 @@
  platform/t186/../../../../common/drivers/ufs/tegrabl_ufs_hci.h \
  platform/t186/../../../../common/drivers/ufs/tegrabl_ufs_rpmb.h \
  lib/exit/../../../../common/include/lib/tegrabl_malloc.h \
- /home/smanupa/cboot/bootloader/partner/common/drivers/ufs/tegrabl_ufs_local.h \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/ufs/tegrabl_ufs_local.h \
  ../../common/include/tegrabl_drf.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/ufs/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/ufs/module_config.h:
 
 lib/exit/../../../../common/include/lib/stdint.h:
 
@@ -52,7 +52,7 @@ lib/exit/../../../../common/include/lib/inttypes.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_blockdev.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/list.h:
 
@@ -74,8 +74,8 @@ platform/t186/../../../../common/drivers/ufs/tegrabl_ufs_rpmb.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_malloc.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/ufs/tegrabl_ufs_local.h:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/ufs/tegrabl_ufs_local.h:
 
 ../../common/include/tegrabl_drf.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/ufs/tegrabl_ufs_bdev.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/ufs/tegrabl_ufs_bdev.c:

@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/partition_manager/tegrabl_partition_manager.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/partition_manager/tegrabl_partition_manager.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/partition_manager/module_config.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/partition_manager/tegrabl_partition_manager.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/partition_manager/tegrabl_partition_manager.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/partition_manager/module_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/string.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/stdint.h \
@@ -25,11 +25,11 @@
  lib/exit/../../../../common/include/lib/tegrabl_a_b_partition_naming.h \
  lib/exit/../../../../common/include/lib/tegrabl_a_b_boot_control.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/partition_manager/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/partition_manager/module_config.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
@@ -77,4 +77,4 @@ lib/exit/../../../../common/include/lib/tegrabl_a_b_partition_naming.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_a_b_boot_control.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/partition_manager/tegrabl_partition_manager.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/partition_manager/tegrabl_partition_manager.c:

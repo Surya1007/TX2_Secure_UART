@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/fastboot/tegrabl_fastboot_a_b.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/fastboot/tegrabl_fastboot_a_b.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/fastboot/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/fastboot/tegrabl_fastboot_a_b.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/fastboot/tegrabl_fastboot_a_b.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/fastboot/module_config.h \
  include/stdio.h include/compiler.h include/debug.h \
  lib/exit/../../../../common/include/lib/stddef.h \
  include/platform/debug.h include/sys/types.h include/limits.h \
@@ -13,7 +13,7 @@
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_fastboot_protocol.h \
  lib/exit/../../../../common/include/lib/string.h \
  app/kernel_boot/../../../../common/lib/fastboot/tegrabl_fastboot_a_b.h \
@@ -24,9 +24,9 @@
  lib/exit/../../../../common/include/lib/list.h \
  ../../common/include/drivers/tegrabl_timer.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/fastboot/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/fastboot/module_config.h:
 
 include/stdio.h:
 
@@ -60,7 +60,7 @@ lib/exit/../../../../common/include/lib/inttypes.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_fastboot_protocol.h:
 
@@ -80,4 +80,4 @@ lib/exit/../../../../common/include/lib/list.h:
 
 ../../common/include/drivers/tegrabl_timer.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/fastboot/tegrabl_fastboot_a_b.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/fastboot/tegrabl_fastboot_a_b.c:

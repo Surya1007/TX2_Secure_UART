@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/linuxboot_utils.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/linuxboot/linuxboot_utils.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/module_config.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/linuxboot_utils.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/linuxboot/linuxboot_utils.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/module_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/string.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/stdint.h \
@@ -31,11 +31,11 @@
  platform/t186/../../../../../../hwinc-t18x/nvboot_sdram_param_generated.h \
  platform/t186/../../../common/include/soc/t186/tegrabl_mb2_bct.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/linuxboot/module_config.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
@@ -95,4 +95,4 @@ platform/t186/../../../../../../hwinc-t18x/nvboot_sdram_param_generated.h:
 
 platform/t186/../../../common/include/soc/t186/tegrabl_mb2_bct.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/linuxboot/linuxboot_utils.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/linuxboot/linuxboot_utils.c:

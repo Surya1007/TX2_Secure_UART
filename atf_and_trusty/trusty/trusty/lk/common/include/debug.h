@@ -36,8 +36,8 @@
 /* debug levels */
 #define CRITICAL 0
 #define ALWAYS 0
-#define INFO 0 // CHANGED: original-> INFO 1
-#define SPEW 0 //CHANGED: original-> SPEW 2
+#define INFO 1 // DEBUG_TX2: original -> INFO 1; modified -> 0
+#define SPEW 2 // DEBUG_TX2: original -> SPEW 1; modified -> 0
 
 typedef struct __print_callback print_callback_t;
 struct __print_callback {

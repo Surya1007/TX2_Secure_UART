@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/soc/t186/display/tegrabl_display_soc.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/common/drivers/soc/t186/display/tegrabl_display_soc.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/soc/t186/display/tegrabl_display_soc.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/drivers/soc/t186/display/tegrabl_display_soc.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
  platform/t186/../../../../common/drivers/display/../../../t18x/common/drivers/soc/t186/display/tegrabl_display_soc.h \
  ../../common/include/drivers/display/tegrabl_display.h \
  lib/exit/../../../../common/include/lib/stdint.h \
@@ -20,7 +20,7 @@
  ../../common/include/drivers/display/tegrabl_nvdisp.h \
  platform/t186/../../../../common/drivers/display/nvdisp/tegrabl_nvdisp_local.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/drivers/tegrabl_dmamap.h \
  ../../common/include/drivers/tegrabl_module.h \
  lib/exit/../../../../common/include/lib/inttypes.h \
@@ -38,9 +38,9 @@
  lib/exit/../../../../common/include/lib/list.h \
  ../../common/include/drivers/tegrabl_timer.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
 
 platform/t186/../../../../common/drivers/display/../../../t18x/common/drivers/soc/t186/display/tegrabl_display_soc.h:
 
@@ -80,7 +80,7 @@ platform/t186/../../../../common/drivers/display/nvdisp/tegrabl_nvdisp_local.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/drivers/tegrabl_dmamap.h:
 
@@ -114,4 +114,4 @@ lib/exit/../../../../common/include/lib/list.h:
 
 ../../common/include/drivers/tegrabl_timer.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/common/drivers/soc/t186/display/tegrabl_display_soc.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/drivers/soc/t186/display/tegrabl_display_soc.c:

@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/plugin_manager/tegrabl_plugin_manager.o: \
- /home/smanupa/cboot/bootloader/partner/common/lib/plugin_manager/tegrabl_plugin_manager.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/plugin_manager/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/plugin_manager/tegrabl_plugin_manager.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/plugin_manager/tegrabl_plugin_manager.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/plugin_manager/module_config.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
  lib/exit/../../../../common/include/lib/string.h \
@@ -14,7 +14,7 @@
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_plugin_manager.h \
  lib/exit/../../../../common/include/lib/tegrabl_devicetree.h \
  lib/exit/../../../../common/include/lib/tegrabl_board_info.h \
@@ -32,9 +32,9 @@
  lib/exit/../../../../common/include/lib/tegrabl_odmdata_lib.h \
  platform/t186/../../../common/include/drivers/tegrabl_fuse.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/lib/plugin_manager/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/lib/plugin_manager/module_config.h:
 
 lib/exit/../../../../common/include/lib/stdint.h:
 
@@ -62,7 +62,7 @@ lib/exit/../../../../common/include/lib/fdt.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_plugin_manager.h:
 
@@ -96,4 +96,4 @@ lib/exit/../../../../common/include/lib/tegrabl_odmdata_lib.h:
 
 platform/t186/../../../common/include/drivers/tegrabl_fuse.h:
 
-/home/smanupa/cboot/bootloader/partner/common/lib/plugin_manager/tegrabl_plugin_manager.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/lib/plugin_manager/tegrabl_plugin_manager.c:

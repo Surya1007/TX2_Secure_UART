@@ -1,9 +1,9 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/hdmi/tegrabl_hdmi.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/display/hdmi/tegrabl_hdmi.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/hdmi/tegrabl_hdmi.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/display/hdmi/tegrabl_hdmi.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
@@ -45,13 +45,13 @@
  include/arch/thread.h arch/arm64/include/arch/arch_thread.h \
  include/kernel/wait.h include/debug.h include/platform/debug.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/stdbool.h:
 
@@ -151,4 +151,4 @@ include/debug.h:
 
 include/platform/debug.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/display/hdmi/tegrabl_hdmi.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/display/hdmi/tegrabl_hdmi.c:

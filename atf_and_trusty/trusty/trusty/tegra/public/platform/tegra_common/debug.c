@@ -48,6 +48,8 @@ static vaddr_t uart_base[] = {
 };
 
 static unsigned int debug_port = DEFAULT_DEBUG_PORT;
+//static unsigned int secure_port = 3;
+
 
 #define UART_RHR	0
 #define UART_THR	0
@@ -165,4 +167,9 @@ void platform_enable_debug_intf(void)
 {
 	disable_debug = 0;
 }
+
+
+
+
+
 

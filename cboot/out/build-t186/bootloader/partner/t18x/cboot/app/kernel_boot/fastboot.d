@@ -1,9 +1,9 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/fastboot.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/fastboot.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/fastboot.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/fastboot.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/module_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
@@ -97,13 +97,13 @@
  platform/t186/../../../../../../hwinc-t18x/nvboot_crypto_sha_param.h \
  platform/t186/../../../../../../hwinc-t18x/nvboot_crypto_signatures.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/module_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/stdbool.h:
 
@@ -313,4 +313,4 @@ platform/t186/../../../../../../hwinc-t18x/nvboot_crypto_sha_param.h:
 
 platform/t186/../../../../../../hwinc-t18x/nvboot_crypto_signatures.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/fastboot.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/fastboot.c:

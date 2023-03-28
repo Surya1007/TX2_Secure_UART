@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/timer.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/cboot/platform/tegra_shared/timer.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/timer.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/platform/tegra_shared/timer.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/module_config.h \
  include/sys/types.h include/limits.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h \
@@ -17,16 +17,16 @@
  platform/tegra_shared/include/platform_c.h \
  platform/tegra_shared/include/platform_reg.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h \
  platform/t186/../../../../common/include/soc/t186/tegrabl_addressmap.h \
  platform/t186/../../../../../../hwinc-t18x/address_map_new.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/module_config.h:
 
 include/sys/types.h:
 
@@ -78,7 +78,7 @@ platform/tegra_shared/include/platform_reg.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -90,4 +90,4 @@ platform/t186/../../../../common/include/soc/t186/tegrabl_addressmap.h:
 
 platform/t186/../../../../../../hwinc-t18x/address_map_new.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/cboot/platform/tegra_shared/timer.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/platform/tegra_shared/timer.c:

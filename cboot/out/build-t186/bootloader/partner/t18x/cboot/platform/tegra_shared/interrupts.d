@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/interrupts.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/cboot/platform/tegra_shared/interrupts.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/interrupts.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/platform/tegra_shared/interrupts.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/module_config.h \
  include/debug.h lib/exit/../../../../common/include/lib/stddef.h \
  include/compiler.h include/platform/debug.h include/sys/types.h \
  include/limits.h lib/exit/../../../../common/include/lib/stdint.h \
@@ -19,9 +19,9 @@
  include/kernel/wait.h include/kernel/debug.h \
  platform/tegra_shared/include/common.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/platform/tegra_shared/module_config.h:
 
 include/debug.h:
 
@@ -81,4 +81,4 @@ include/kernel/debug.h:
 
 platform/tegra_shared/include/common.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/cboot/platform/tegra_shared/interrupts.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/platform/tegra_shared/interrupts.c:

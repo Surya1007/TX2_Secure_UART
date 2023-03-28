@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/soc/t186/misc/misc.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/common/soc/t186/misc/misc.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/soc/t186/misc/module_config.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/soc/t186/misc/misc.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/soc/t186/misc/misc.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/soc/t186/misc/module_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
  ../../common/include/tegrabl_error.h \
@@ -40,11 +40,11 @@
  ../../common/include/drivers/tegrabl_spi.h \
  lib/exit/../../../../common/include/lib/string.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/soc/t186/misc/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/soc/t186/misc/module_config.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/stdint.h:
 
@@ -120,4 +120,4 @@ lib/exit/../../../../common/include/lib/tegrabl_odmdata_lib.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/common/soc/t186/misc/misc.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/soc/t186/misc/misc.c:

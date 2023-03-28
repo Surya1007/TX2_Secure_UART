@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/semaphore.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/cboot/kernel/semaphore.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/semaphore.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/kernel/semaphore.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/module_config.h \
  include/debug.h lib/exit/../../../../common/include/lib/stddef.h \
  include/compiler.h include/platform/debug.h include/sys/types.h \
  include/limits.h lib/exit/../../../../common/include/lib/stdint.h \
@@ -14,9 +14,9 @@
  arch/arm64/include/arch/arch_thread.h include/kernel/wait.h \
  include/kernel/mutex.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/kernel/module_config.h:
 
 include/debug.h:
 
@@ -60,4 +60,4 @@ include/kernel/wait.h:
 
 include/kernel/mutex.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/cboot/kernel/semaphore.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/kernel/semaphore.c:

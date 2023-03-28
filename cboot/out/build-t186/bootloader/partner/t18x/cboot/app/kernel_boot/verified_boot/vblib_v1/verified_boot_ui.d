@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/verified_boot_ui.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/verified_boot_ui.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/verified_boot_ui.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/verified_boot_ui.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/module_config.h \
  app/kernel_boot/verified_boot/vblib_v1/verified_boot_ui.h \
  include/sys/types.h include/limits.h \
  lib/exit/../../../../common/include/lib/stdint.h \
@@ -14,7 +14,7 @@
  lib/exit/../../../../common/include/lib/mincrypt/hash-internal.h \
  app/kernel_boot/verified_boot/vblib_v1/menu_data.h include/lib/menu.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  ../../common/include/tegrabl_compiler.h \
@@ -51,9 +51,9 @@
  lib/exit/../../../../common/include/lib/tegrabl_partition_manager.h \
  lib/exit/../../../../common/include/lib/tegrabl_bootimg.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/module_config.h:
 
 app/kernel_boot/verified_boot/vblib_v1/verified_boot_ui.h:
 
@@ -83,7 +83,7 @@ include/lib/menu.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -161,4 +161,4 @@ lib/exit/../../../../common/include/lib/tegrabl_partition_manager.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_bootimg.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/verified_boot_ui.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/cboot/app/kernel_boot/verified_boot/vblib_v1/verified_boot_ui.c:

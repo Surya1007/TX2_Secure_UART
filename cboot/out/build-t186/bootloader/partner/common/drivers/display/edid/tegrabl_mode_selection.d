@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/edid/tegrabl_mode_selection.o: \
- /home/smanupa/cboot/bootloader/partner/common/drivers/display/edid/tegrabl_mode_selection.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/edid/tegrabl_mode_selection.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/display/edid/tegrabl_mode_selection.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h \
  ../../common/include/tegrabl_error.h \
  ../../common/include/lib/tegrabl_utils.h \
  lib/exit/../../../../common/include/lib/stddef.h \
@@ -12,7 +12,7 @@
  platform/t186/../../../../common/drivers/display/edid/tegrabl_edid.h \
  platform/t186/../../../../common/drivers/display/nvdisp/tegrabl_nvdisp_local.h \
  lib/exit/../../../../common/include/lib/tegrabl_debug.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/tegrabl_surface.h \
  ../../common/include/drivers/tegrabl_dmamap.h \
  ../../common/include/drivers/tegrabl_module.h \
@@ -27,9 +27,9 @@
  platform/t186/../../../../common/drivers/display/edid/tegrabl_modes.h \
  lib/exit/../../../../common/include/lib/string.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/common/drivers/display/module_config.h:
 
 ../../common/include/tegrabl_error.h:
 
@@ -53,7 +53,7 @@ platform/t186/../../../../common/drivers/display/nvdisp/tegrabl_nvdisp_local.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_debug.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/tegrabl_surface.h:
 
@@ -81,4 +81,4 @@ platform/t186/../../../../common/drivers/display/edid/tegrabl_modes.h:
 
 lib/exit/../../../../common/include/lib/string.h:
 
-/home/smanupa/cboot/bootloader/partner/common/drivers/display/edid/tegrabl_mode_selection.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/common/drivers/display/edid/tegrabl_mode_selection.c:

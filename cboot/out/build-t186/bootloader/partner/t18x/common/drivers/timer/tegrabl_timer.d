@@ -1,7 +1,7 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/timer/tegrabl_timer.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/common/drivers/timer/tegrabl_timer.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/timer/module_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/timer/tegrabl_timer.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/drivers/timer/tegrabl_timer.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/timer/module_config.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
  platform/t186/../../../../common/include/soc/t186/tegrabl_addressmap.h \
@@ -13,9 +13,9 @@
  ../../common/include/tegrabl_compiler.h \
  lib/exit/../../../../common/include/lib/stdbool.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/timer/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/drivers/timer/module_config.h:
 
 lib/exit/../../../../common/include/lib/stdint.h:
 
@@ -39,4 +39,4 @@ platform/t186/../../../../common/arch/arm64/../../include/arch/tegrabl_armv8a.h:
 
 lib/exit/../../../../common/include/lib/stdbool.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/common/drivers/timer/tegrabl_timer.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/drivers/timer/tegrabl_timer.c:

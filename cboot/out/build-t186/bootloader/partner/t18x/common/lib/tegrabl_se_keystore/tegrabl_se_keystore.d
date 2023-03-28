@@ -1,8 +1,8 @@
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/tegrabl_se_keystore.o: \
- /home/smanupa/cboot/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/tegrabl_se_keystore.c \
- /home/smanupa/cboot/out/build-t186/build_config.h \
- /home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/module_config.h \
- /home/smanupa/cboot/out/build-t186/build_config.h \
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/tegrabl_se_keystore.o: \
+ /home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/tegrabl_se_keystore.c \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/module_config.h \
+ /home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h \
  lib/exit/../../../../common/include/lib/stdint.h \
  lib/exit/../../../../common/include/lib/libc_limits.h include/limits.h \
  lib/exit/../../../../common/include/lib/stdbool.h \
@@ -17,11 +17,11 @@
  platform/t186/../../../common/lib/mb1bct/../../include/lib/tegrabl_se_keystore.h \
  platform/t186/../../../common/include/soc/t186/tegrabl_page_allocator_pool_map.h
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
-/home/smanupa/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/module_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/module_config.h:
 
-/home/smanupa/cboot/out/build-t186/build_config.h:
+/home/smanupa/Secure_UART/cboot/out/build-t186/build_config.h:
 
 lib/exit/../../../../common/include/lib/stdint.h:
 
@@ -51,4 +51,4 @@ platform/t186/../../../common/lib/mb1bct/../../include/lib/tegrabl_se_keystore.h
 
 platform/t186/../../../common/include/soc/t186/tegrabl_page_allocator_pool_map.h:
 
-/home/smanupa/cboot/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/tegrabl_se_keystore.c:
+/home/smanupa/Secure_UART/cboot/bootloader/partner/t18x/common/lib/tegrabl_se_keystore/tegrabl_se_keystore.c:
