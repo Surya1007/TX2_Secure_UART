@@ -29,7 +29,7 @@
 
 DEF_SYSCALL(0x1, write, long, 3, uint32_t fd, void* msg, uint32_t size)
 DEF_SYSCALL(0x2, brk, long, 1, uint32_t brk)
-DEF_SYSCALL(0x3, exit_group, long, 0, void)
+DEF_SYSCALL(0x3, exit_group, long, 1, void)
 DEF_SYSCALL(0x4, read, long, 3, uint32_t fd, void* msg, uint32_t size)
 DEF_SYSCALL(0x5, ioctl, long, 3, uint32_t fd, uint32_t req, void* buf)
 DEF_SYSCALL(0x6, nanosleep, long, 3, uint32_t clock_id, uint32_t flags, uint64_t sleep_time)
@@ -54,6 +54,10 @@ DEF_SYSCALL(0x20, get_msg, long, 2, uint32_t handle, ipc_msg_info_t *msg_info)
 DEF_SYSCALL(0x21, read_msg, long, 4, uint32_t handle, uint32_t msg_id, uint32_t offset, ipc_msg_t *msg)
 DEF_SYSCALL(0x22, put_msg, long, 2, uint32_t handle, uint32_t msg_id)
 DEF_SYSCALL(0x23, send_msg, long, 2, uint32_t handle, ipc_msg_t *msg)
+
+/* Secure_UART: TX2 */
+DEF_SYSCALL(0x24, send_to_uart, long, 3, uint32_t uart_port, char* message, uint32_t msg_size)
+DEF_SYSCALL(0x25, receive_from_uart, long, 3, uint32_t uart_port, char* message, uint32_t wait)
 
 /* tegra platform syscalls beginning at syscall number 0xa1 */
 #include <platform/syscall_table.h>

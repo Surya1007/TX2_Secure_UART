@@ -1,19 +1,17 @@
 #ifndef __PLATFORM_SECURE_H
 #define __PLATFORM_SECURE_H
 
-#include <lib/trusty/uuid.h>
+#include <sys/types.h>
 #include <stdbool.h>
-#include <lib/sm.h>
-#if defined(WITH_PLATFORM_PARTNER)
-#include <partner/platform/platform_p.h>
-#endif
+#include <stdarg.h>
+#include <compiler.h>
 
+__BEGIN_CDECLS
 
+void secure_platform_dputc(char c);
+int secure_platform_dgetc(char *c, bool wait);
 
-void platform_init_secure_port(unsigned int dbg_port);
-void platform_disable_secure_intf(void);
-void platform_enable_secure_intf(void);
-
+__END_CDECLS
 
 
 #endif

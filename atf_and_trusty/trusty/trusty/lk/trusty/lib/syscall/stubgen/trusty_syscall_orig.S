@@ -157,15 +157,3 @@ FUNCTION(send_msg)
     ldr     r12, =__NR_send_msg
     swi     #0
     bx      lr
-
-.section .text.send_to_uart
-FUNCTION(send_to_uart)
-    ldr     r12, =__NR_send_to_uart
-    swi     #0
-    bx      lr
-
-.section .text.receive_from_uart
-FUNCTION(receive_from_uart)
-    ldr     r12, =__NR_receive_from_uart
-    swi     #0
-    bx      lr

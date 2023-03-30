@@ -238,17 +238,22 @@ def main():
             help="path to syscall assembly stubs file.")
 
     (opts, args) = op.parse_args()
-
+    
+    print "Ended4"
     if len(args) == 0:
         op.print_help()
         sys.exit(1)
-
+    
+    print "Ended3"
+    
     if not opts.verify:
         if opts.std_file is None and opts.stub_file is None:
             op.print_help()
             sys.exit(1)
-
+    
+    print "Ended2"
     process_table(args[0], opts.std_file, opts.stub_file, opts.verify)
+    print "Ended1"
 
 
 if __name__ == '__main__':

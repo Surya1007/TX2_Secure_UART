@@ -35,11 +35,10 @@ MODULE_SRCS += \
 	$(LOCAL_DIR)/main.c \
 	$(LOCAL_DIR)/manifest.c
 
-
 MODULE_DEPS += \
 	app/trusty \
 	lib/libc-trusty \
-	lib/openssl
+	lib/openssl \
 
 # Two pages for stack
 MODULE_CFLAGS += -DMIN_STACK_SIZE=8192

@@ -169,6 +169,3 @@ void platform_init_secure_port(unsigned int dbg_port)
 	dprintf(0, "DEBUG PORT ENABLED with %d\n", secure_port);
 	secure_platform_dputc('f');
 }
-
-
-

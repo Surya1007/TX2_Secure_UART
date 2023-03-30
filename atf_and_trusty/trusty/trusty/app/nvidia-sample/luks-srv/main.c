@@ -26,6 +26,7 @@
 #include <key_mgnt.h>
 #include <stdio.h>
 #include <trusty_std.h>
+#include <platform/secure_port.h>
 
 /*
  * @brief Main function of luks-srv TA.
@@ -39,6 +40,10 @@ int main(void)
 
 	TLOGI("luks-srv is running!!\n");
 
+	//secure_platform_dputc('z');
+	const char* dep = "hello";
+	send_to_uart( 2, (char*) dep, 5);
+	
 	rc = luks_srv_key_mgnt_processing();
 	if (rc != NO_ERROR) {
 		TLOGE("%s: Failed to set up LUKS keys (%d).\n", __func__, rc);
@@ -60,6 +65,8 @@ int main(void)
 		event.cookie = NULL;
 
 		rc = wait_any(&event, -1);
+		const char* temp = "SURYA";
+		send_to_uart( 2, (char*) temp, 5);
 		if (rc < 0) {
 			TLOGI("wait_any failed (%d)", rc);
 			continue;

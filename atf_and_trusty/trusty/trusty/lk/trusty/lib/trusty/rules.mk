@@ -34,7 +34,8 @@ MODULE_SRCS := \
 	$(LOCAL_DIR)/ipc.c \
 	$(LOCAL_DIR)/ipc_msg.c \
 	$(LOCAL_DIR)/iovec.c \
-	$(LOCAL_DIR)/uuid.c
+	$(LOCAL_DIR)/uuid.c \
+	$(LOCAL_DIR)/secure_uart.c
 
 ifeq (true,$(call TOBOOL,$(WITH_TRUSTY_IPC)))
 GLOBAL_DEFINES += WITH_TRUSTY_IPC=1

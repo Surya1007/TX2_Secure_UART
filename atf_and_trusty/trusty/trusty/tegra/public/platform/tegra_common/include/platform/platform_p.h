@@ -42,6 +42,11 @@ status_t get_and_clear_eks_info(eks_info_t *info);
 void platform_init_debug_port(unsigned int dbg_port);
 void platform_disable_debug_intf(void);
 void platform_enable_debug_intf(void);
+// DEBUG_TX2: START
+void platform_init_secure_port(unsigned int dbg_port);
+void platform_disable_secure_intf(void);
+void platform_enable_secure_intf(void);
+// DEBUG_TX2: STOP
 bool platform_is_bootstrapping(void);
 void tegra_platform_bootstrap_epilog(void);
 long platform_register_ns_dram_ranges(paddr_t ns_base, uint64_t ns_size);

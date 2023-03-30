@@ -49,6 +49,9 @@
 #define __NR_read_msg		0x21
 #define __NR_put_msg		0x22
 #define __NR_send_msg		0x23
+// Secure_UART: TX2
+#define __NR_send_to_uart	0x24
+#define __NR_receive_from_uart	0x25
 
 #ifndef ASSEMBLY
 
@@ -76,6 +79,9 @@ long get_msg (uint32_t handle, ipc_msg_info_t *msg_info);
 long read_msg (uint32_t handle, uint32_t msg_id, uint32_t offset, ipc_msg_t *msg);
 long put_msg (uint32_t handle, uint32_t msg_id);
 long send_msg (uint32_t handle, ipc_msg_t *msg);
+// Secure_UART: TX2
+long send_to_uart (uint32_t uart_port, char* message, uint32_t msg_size);
+long receive_from_uart (uint32_t uart_port, char* message, uint32_t wait);
 
 __END_CDECLS
 
