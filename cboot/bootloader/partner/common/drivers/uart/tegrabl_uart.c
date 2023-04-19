@@ -25,6 +25,9 @@
 
 /* FIXME: this needs to be configurable */
 #define BAUD_RATE	115200
+#define SECURE_BAUD_RATE 460800
+uint8_t CUSTOM = 0;
+
 #define uart_readl(huart, reg) \
 	NV_READ32(((uintptr_t)((huart)->base_addr) + (uint8_t)(UART_##reg##_0)));
 
@@ -129,8 +132,21 @@ struct tegrabl_uart *tegrabl_uart_open(uint32_t instance)
 		huart++;
 	}
 
+	
+	// DEBUG_TX2: START
+	if (instance == 2)
+	{
+		CUSTOM = 1;
+		huart->baud_rate = SECURE_BAUD_RATE;
+	}
+	else
+	{
+		CUSTOM = 0;
+		huart->baud_rate = BAUD_RATE;
+	}
+	// DEBUG_TX2: STOP
 
-	huart->baud_rate = BAUD_RATE;
+	
 
 	error = tegrabl_car_rst_set(TEGRABL_MODULE_UART, (uint8_t)instance);
 	if (error != TEGRABL_NO_ERROR) {
@@ -160,7 +176,7 @@ struct tegrabl_uart *tegrabl_uart_open(uint32_t instance)
 	if (error != TEGRABL_NO_ERROR) {
 		goto fail;
 	}
-
+	CUSTOM = 0;
 	/* Program FIFO control reg to clear Tx, Rx FIRO and to enable them */
 	reg_value = NV_DRF_NUM(UART, IIR_FCR, TX_CLR, 1) |
 						 NV_DRF_NUM(UART, IIR_FCR, RX_CLR, 1) |
