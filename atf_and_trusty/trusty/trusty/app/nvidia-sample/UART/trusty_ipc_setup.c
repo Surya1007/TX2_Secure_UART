@@ -110,7 +110,7 @@ static int handle_msg(handle_t chan)
 	int received_command = ((secure_camera_msg_t *)msg.iov[0].base)->command_type;
 
 	// Debugging purpose
-	char *tempo = (char *)"Got the message: ";
+	char *tempo = (char *)"Received: ";
 	send_to_uart(DEBUG_PORT, tempo, 1);
 	char *data_to_send = (char *)malloc(100 * sizeof(char));
 	int co = 0;
@@ -118,20 +118,22 @@ static int handle_msg(handle_t chan)
 	{
 		data_to_send[co] = (i % 10) + '0';
 	}
-	send_to_uart(1, data_to_send, 1);
+	send_to_uart(DEBUG_PORT, data_to_send, 1);
+	tempo = (char *)" from CA\n\r";
+	send_to_uart(DEBUG_PORT, tempo, 1);
 	free(data_to_send);
 
-	// update number of bytes received
+	// update number of bytes received from CA
 	iov.len = (size_t)rc;
 	int received_size;
 
-	send_to_uart(DEBUG_PORT, (char *)"\n\r", 1);
 	// **************************************************************************
 	// 					Receive version number from camera
+	//									OR
+	//					Flush values from the camera tx buffer
 	// **************************************************************************
 	message_from_camera = (char *)malloc(100 * sizeof(char));
 	bool found = receive_message_from_camera(message_from_camera, &received_size);
-
 	if (found == 1)
 	{
 		print_recieved_data(message_from_camera, &received_size);
@@ -141,15 +143,17 @@ static int handle_msg(handle_t chan)
 		char *temp = (char *)"Failed to get camera data\n";
 		send_to_uart(DEBUG_PORT, temp, 1);
 	}
-	memset(message_from_camera, '\0', sizeof(received_size));
-	send_to_uart(DEBUG_PORT, (char *)"\n\r", 1);
-	    for (int i = 0; i < 3600; i++)
-    {
-        nanosleep(0, 0, 1000);
-    }
+	for (int i = 0; i < 100; i++)
+	{
+		nanosleep(0, 0, 1000);
+	}
+	// memset(message_from_camera, '\0', 100 * sizeof(char));
+	free(message_from_camera);
+
 	// **************************************************************************
 	// 					Set Image resolution
 	// **************************************************************************
+	message_from_camera = (char *)malloc(500 * sizeof(char));
 	bool initialize_status = send_command_to_camera(message_from_camera,
 													&received_size, 0);
 	if (initialize_status == 0)
@@ -161,8 +165,6 @@ static int handle_msg(handle_t chan)
 	{
 		print_recieved_data(message_from_camera, &received_size);
 	}
-	print_recieved_data(message_from_camera, &received_size);
-	memset(message_from_camera, '\0', sizeof(received_size));
 	send_to_uart(DEBUG_PORT, (char *)"\n\r", 1);
 	//**********************************************************************************
 
@@ -181,6 +183,7 @@ static int handle_msg(handle_t chan)
 		TLOGE("failed (%d) to put_msg for chan (%d)\n", rc, chan);
 		return rc;
 	}
+	free(message_from_camera);
 
 	return NO_ERROR;
 }

@@ -27,18 +27,19 @@ bool receive_message_from_camera(char *received_msg_from_cam, int *size_of_messa
 {
     bool found = 0;
     int size = 0;
-    char *recieved_byte = (char *)malloc(sizeof(char));
     send_to_uart(DEBUG_PORT, (char *)"Enter\n\r", 1);
+    char *recieved_byte = (char *)malloc(sizeof(char));
     while (receive_from_uart(CAMERA_PORT, recieved_byte, 1) == 0)
     {
-        send_to_uart(DEBUG_PORT, (char *)"rec\n\r", 1);
         found = 1;
         strcat(received_msg_from_cam, recieved_byte);
         size++;
+        send_to_uart(DEBUG_PORT, (char *)"go\n\r", 1);
     }
-    send_to_uart(DEBUG_PORT, (char *)"Exit\n\r", 1);
+
     *size_of_message = size;
     free(recieved_byte);
+    send_to_uart(DEBUG_PORT, (char *)"Exit\n\r", 1);
     return found;
 }
 
@@ -50,17 +51,8 @@ bool send_command_to_camera(char *received_msg_from_cam, int *size_of_message, i
     send_to_uart(DEBUG_PORT, (char *)"\n\r", 1);
     send_to_uart(DEBUG_PORT, (char *)commands[command], 0);
     // Send command to camera uart port
-    send_to_uart(CAMERA_PORT, (char *)commands[command], 0);
-
-    // for (int i = 0; i < 3600; i++)
-    //{
-    //     nanosleep(0, 0, 1000);
-    // }
+    send_to_uart(CAMERA_PORT, (char *)"56001100", 0);
     bool found = receive_message_from_camera(received_msg_from_cam, size_of_message);
-    for (int i = 0; i < 1000; i++)
-    {
-        nanosleep(0, 0, 1000);
-    }
     return found;
 }
 
