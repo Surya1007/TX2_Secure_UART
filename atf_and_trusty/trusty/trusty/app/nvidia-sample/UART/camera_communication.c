@@ -49,17 +49,64 @@ bool receive_message_from_camera(char *received_msg_from_cam, int *size_of_messa
 
 bool send_command_to_camera(char *received_msg_from_cam, int *size_of_message, int command)
 {
-    // Send debug outputs
+    bool found = false;
     send_to_uart(DEBUG_PORT, (char *)"Sent command: ", 1);
-    send_to_uart(DEBUG_PORT, (char *)commands[command], 1);
-    send_to_uart(DEBUG_PORT, (char *)"\n\r", 1);
-    send_to_uart(CAMERA_PORT, (char *)commands[command], 0);
-    // Send command to camera uart port
-    bool found = receive_message_from_camera(received_msg_from_cam, size_of_message);
+    /*
+        switch (command)
+        {
+        // Get version number
+        case 0:
+        {
+            send_to_uart(DEBUG_PORT, (char *)commands[0], 1);
+            send_to_uart(DEBUG_PORT, (char *)"\r\n", 1);
+            send_to_uart(CAMERA_PORT, (char *)commands[0], 0);
+            found = receive_message_from_camera(received_msg_from_cam, size_of_message);
+            break;
+        }
+        // Reset camera
+        case 1:
+        {
+            send_to_uart(DEBUG_PORT, (char *)commands[1], 1);
+            send_to_uart(DEBUG_PORT, (char *)"\r\n", 1);
+            send_to_uart(CAMERA_PORT, (char *)commands[1], 0);
+            found = receive_message_from_camera(received_msg_from_cam, size_of_message);
+            break;
+        }
+        // Capture image
+        case 2:
+        {
+            send_to_uart(DEBUG_PORT, (char *)commands[2], 1);
+            send_to_uart(DEBUG_PORT, (char *)"\r\n", 1);
+            // Capture an image
+            send_to_uart(CAMERA_PORT, (char *)commands[2], 0);
+            found = receive_message_from_camera(received_msg_from_cam, size_of_message);
+            if (found == 1)
+            {
+                send_to_uart(DEBUG_PORT, (char *)"Received capture response\r\n", 1);
+                if (strcmp(received_msg_from_cam, "\x76\x00\x36\x00"))
+                {
+                    send_to_uart(DEBUG_PORT, (char *)"Captured an image\r\n", 1);
+                }
+            }
+            send_to_uart(DEBUG_PORT, (char *)"Done with receiving image from camera\r\n", 1);
+            break;
+        }
+        // Invalid command given to camera
+        default:
+        {
+            send_to_uart(DEBUG_PORT, (char *)"Received invalid command from CA\r\n", 1);
+            return false;
+        }
+        }
+        */
+    send_to_uart(DEBUG_PORT, (char *)commands[0], 1);
+    send_to_uart(DEBUG_PORT, (char *)"\r\n", 1);
+    send_to_uart(CAMERA_PORT, (char *)commands[0], 0);
+    found = receive_message_from_camera(received_msg_from_cam, size_of_message);
     return found;
 }
 
-void format_recieved_data(char *received_msg_from_cam, int *size_of_message, char * formatted_message)
+int format_recieved_data(char *received_msg_from_cam, int *size_of_message, char *formatted_message)
 {
     char *to_print = (char *)malloc((*size_of_message) * 3 * sizeof(char));
     char *value_in_char_reverse = (char *)malloc(100 * sizeof(char));
@@ -67,14 +114,15 @@ void format_recieved_data(char *received_msg_from_cam, int *size_of_message, cha
     int global_size = 0;
     for (int count = 0; count < *size_of_message; count++)
     {
-
         uint8_t value = (uint8_t)received_msg_from_cam[count];
         int size = 0;
         if (value == 0)
         {
-            char *temp = (char *)"00";
-            strcat(to_print, temp);
-            global_size+=2;
+            char temp = '0';
+            strncat(value_in_char_reverse, &temp, 1);
+            strncat(value_in_char_reverse, &temp, 1);
+            size += 2;
+            global_size += 2;
         }
         else
         {
@@ -97,18 +145,14 @@ void format_recieved_data(char *received_msg_from_cam, int *size_of_message, cha
         global_size++;
         strcat(value_in_char, space);
         strcat(to_print, value_in_char);
-        // send_to_uart(DEBUG_PORT, to_print, 1);
-        // send_to_uart(DEBUG_PORT, (char *)"\n\r", 1);
         memset(value_in_char, 0, 100);
         memset(value_in_char_reverse, 0, 100);
     }
     send_to_uart(DEBUG_PORT, to_print, 1);
-    send_to_uart(DEBUG_PORT, (char *)"\nDone sending\n", 1);
-    for (int i = 0; i < global_size; i++)
-    {
-        formatted_message[i] = to_print[i];
-    }
-    free(to_print);
+    strcpy(formatted_message, to_print);
+    send_to_uart(DEBUG_PORT, (char *)"\r\nDone sending\r\n", 1);
+    // free(to_print);
     free(value_in_char_reverse);
     free(value_in_char);
+    return global_size;
 }

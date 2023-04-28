@@ -37,13 +37,51 @@ typedef struct secure_camera_msg
 {
 	int camera_command;
 	int additional_args;
-	char *camera_data;
-	char *camera_response;
+	char camera_response[256];
 } secure_camera_msg_t;
+
+void initialization(int argc, char *argv[]);
 
 int main(int argc, char *argv[])
 {
-	if (argc < 1)
+	initialization(argc, argv[]);
+	secure_camera_msg_t msg = {strtol(argv[1], NULL, 10), 0, {0}};
+	if (argc > 2)
+	{
+		msg.additional_args = atoi(argv[2]);
+	}
+	int arg0 = atoi(argv[1]);
+	printf("Executing command: %d\n", arg0);
+	uint32_t msg_size = sizeof(secure_camera_msg_t);
+
+	// **********************************************************************
+	// 						TRUSTY COMMUNICATION STARTS HERE
+	// **********************************************************************
+	int secure_comm_fd = tipc_connect(TIPC_DEFAULT_NODE, TA_SUART_NAME);
+	if (secure_comm_fd < 0)
+	{
+		LOG("SECURE UART: tipc connect fail.\n");
+		return -1;
+	}
+	write(secure_comm_fd, &msg, msg_size);
+	read(secure_comm_fd, &msg, msg_size);
+	// **********************************************************************
+	// 						TRUSTY COMMUNICATION ENDS HERE
+	// **********************************************************************
+	printf("The received message size is: %d\n", strlen(msg.camera_response));
+	printf("The response is: \n");
+	for (int i = 0; i < 80; i++)
+	{
+		fprintf(stdout, "%c", msg.camera_response[i]);
+	}
+	printf("\r\n");
+	// printf("%s", msg.camera_response);
+	return 0;
+}
+
+void initialization(int argc, char *argv[])
+{
+	if (argc < 2)
 	{
 		printf("Please enter the camera command:\n");
 		printf("1. Get camera version\n");
@@ -63,7 +101,8 @@ int main(int argc, char *argv[])
 		printf("\t7. 520 kB\n");
 		return -1;
 	}
-	if ((strtol(argv[0], NULL, 10) == 4) || (strtol(argv[0], NULL, 10) == 5))
+
+	if ((strtol(argv[1], NULL, 10) == 4) || (strtol(argv[1], NULL, 10) == 5))
 	{
 		if (argc != 2)
 		{
@@ -71,36 +110,9 @@ int main(int argc, char *argv[])
 			return -1;
 		}
 	}
-	if (strtol(argv[0], NULL, 10) > 5)
+	if (strtol(argv[1], NULL, 10) > 5)
 	{
 		printf("Please enter a valid command\n");
 		return -1;
 	}
-
-	secure_camera_msg_t msg = {strtol(argv[0], NULL, 10), strtol(argv[1], NULL, 10), NULL, NULL};
-	msg.camera_response = (char *)malloc(1024 * sizeof(char));
-	if (strtol(argv[0], NULL, 10) == 3)
-	{
-		msg.camera_data = (char *)malloc(520 * 1024 * sizeof(char));
-	}
-	uint32_t msg_size = sizeof(secure_camera_msg_t);
-
-	// **********************************************************************
-	// 						TRUSTY COMMUNICATION STARTS HERE
-	// **********************************************************************
-	int secure_comm_fd = tipc_connect(TIPC_DEFAULT_NODE, TA_SUART_NAME);
-	if (secure_comm_fd < 0)
-	{
-		LOG("SECURE UART: tipc connect fail.\n");
-		return -1;
-	}
-	write(secure_comm_fd, &msg, msg_size);
-	read(secure_comm_fd, &msg, msg_size);
-	// **********************************************************************
-	// 						TRUSTY COMMUNICATION ENDS HERE
-	// **********************************************************************
-
-	free(msg.camera_response);
-	free(msg.camera_data);
-	return 0;
 }
